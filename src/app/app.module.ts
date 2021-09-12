@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { NgbdTableBasic } from './app.component';
+import { ClasesComponent } from './clases/clases.component';
 
 
 @NgModule({
   declarations: [
     NgbdTableBasic,
+    ClasesComponent,
   ],
   imports: [
     BrowserModule,
